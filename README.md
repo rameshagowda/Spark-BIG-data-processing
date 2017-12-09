@@ -4,14 +4,12 @@ Data exploration and Analysis using Spark standalone version. Spark replaces Map
 Spark run programs up to 100x faster than Hadoop MapReduce, using its in-memory computing capabilities (RDD).
 It comes with built-in libraries to work with structure data (Spark SQL), machine learning (MLlib) and streaming (Spark Streaming).
 
-Spark - built using Scala
+Spark - built using Scala, possible to write Spark applications using Java, Python, Scala and R.
 - An engine for data processing and analysis.
 - Data is processed using Resilient Distributed Datasets (RDD).
 - RDDs are in-memory collections of objects (collection of entities).
 - Each object in the colletion represent one record in the dataset.
 - RDDs are in-memory, yet resilient (tolerent to faults and crashes).
-
-- With RDDs, you can interact and play with billions of rows of data without caring about any of the complexities.
 
 ### Components of Spark:
 - Data processing unit / Spark Core - is a computing engine which deals with creation and processing of RDDs
